@@ -49,7 +49,7 @@ function Signup() {
   return (
     <div className="signup" style={{ backgroundImage: `url(${require('./background/log.jpg')})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
       <div style={{ backgroundColor: 'rgba(255, 255, 255, 0.8)', padding: '20px', borderRadius: '8px', width: '300px', textAlign: 'center' }}>
-        <h1 style={{ fontWeight: 'bold', color: 'black' }}>Signup</h1>
+        <h1 style={{ fontWeight: 'bold', color: 'white' }}>Signup</h1>
         <form onSubmit={submit}>
           <input type="text" onChange={(e) => setUser(e.target.value)} placeholder="Username" />
           <input type="text" onChange={(e) => setConfirmUser(e.target.value)} placeholder="Confirm Username" />
