@@ -33,7 +33,7 @@ function Login() {
   return (
     <div className="login" style={{ backgroundImage: `url(${require('./background/log.jpg')})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
       <div style={{ backgroundColor: 'rgba(255, 255, 255, 0.8)', padding: '20px', borderRadius: '8px', width: '300px' }}>
-        <h1 style={{ fontWeight: 'bold', color: 'black', textAlign: 'center' }}>Login</h1>
+        <h1 style={{ fontWeight: 'bold', color: 'white', textAlign: 'center' }}>Login</h1>
 
         <form onSubmit={submit}>
           <input
